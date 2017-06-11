@@ -5,7 +5,7 @@
 site="https://pogoda.tut.by/city/minsk/"
 page="index.html"
 
-wget $site > NULL
+wget $site &> /dev/null
 
 echo -n "Temperature in Minsk now is "
 
